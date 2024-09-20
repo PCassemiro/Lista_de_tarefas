@@ -21,16 +21,14 @@ body{
 }.InputClasse{
     display: grid;
     grid-template-columns: auto auto; /* Duas colunas para os dois inputs */
-    gap: 5vh; /* Espaço entre os inputs */
+    gap: 2vh; /* Espaço entre os inputs */
+    margin-bottom: 10px;
 }.InputClasse input{
-    width: 15vh ;
-}select{
-    margin-bottom:  10px;
-width: 40vh;
+    width: 30vh ;
 }#botao{
     width: 10vh;
     border-radius: 5px;
-    margin-bottom:  20px;
+    margin-bottom:  15px;
     background-color: rgba(255, 255, 255, 0.74);
     color: rgb(0, 0, 0);
     border: none;

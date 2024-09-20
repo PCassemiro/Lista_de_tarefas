@@ -16,20 +16,18 @@
         </div>
         <div class="InputClasse">
             <div>
-            <p>Data de inicio</p>
-            <input type="date" id="dataInicio" required>
+                <p>Data de inicio</p>
+                <input type="date" id="dataInicio" required>
             </div>
             <div>
-            <p>Previsão de término</p>
-            <input type="date" id="dataFinal" required>
-            </div>
+                <p>Categoria:</p>
+                <select name="Seletor" id="categoria">Categoria:>
+                <option value="Escolar">Escolar</option>
+                <option value="Pessoal">Pessoal</option>
+                <option value="Outro">Outro</option>
+                </select>
+             </div>
         </div>
-        <p>Categoria:</p>
-        <select name="Seletor" id="categoria">Categoria:>
-        <option value="Escolar">Escolar</option>
-        <option value="Pessoal">Pessoal</option>
-        <option value="Outro">Outro</option>
-        </select>
         <div class="botao">
             <input type="button" id="botao" value="Adicionar" onclick="clicar()">
         </div>

@@ -10,16 +10,32 @@
 <body>
     <form action="">
         <h1>Lista de tarefas</h1>
+        <div class="tar">
         <p>Tarefa:</p>
         <input type="text" id="tarefa" placeholder="Adicione a tarefa aqui" required>
-        <div>
+        </div>
+        <div class="InputClasse">
+            <div>
+            <p>Data de inicio</p>
+            <input type="date" id="dataInicio" required>
+            </div>
+            <div>
+            <p>Previsão de término</p>
+            <input type="date" id="dataFinal" required>
+            </div>
+        </div>
+        <p>Categoria:</p>
+        <select name="Seletor" id="categoria">Categoria:>
+        <option value="Escolar">Escolar</option>
+        <option value="Pessoal">Pessoal</option>
+        <option value="Outro">Outro</option>
+        </select>
+        <div class="botao">
             <input type="button" id="botao" value="Adicionar" onclick="clicar()">
         </div>
         <div class="list">
             <p>Lista de tarefas:</p>
-            <ol id="lista">
-                <!-- <li></li> -->
-            </ol>
+            <ol id="lista"></ol>
         </div>
     </form>
     

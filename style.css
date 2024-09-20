@@ -16,10 +16,20 @@ body{
 }p{
     margin: 3px;
 }input{
-    width: 30vh;
+    border-radius: 5px;
+    width: 40vh;
+}.InputClasse{
+    display: grid;
+    grid-template-columns: auto auto; /* Duas colunas para os dois inputs */
+    gap: 5vh; /* Espaço entre os inputs */
+}.InputClasse input{
+    width: 15vh ;
+}select{
+    margin-bottom:  10px;
+width: 40vh;
 }#botao{
     width: 10vh;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom:  20px;
     background-color: rgba(255, 255, 255, 0.74);
     color: rgb(0, 0, 0);
